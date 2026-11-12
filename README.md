@@ -1,5 +1,11 @@
 # MAMS Attention Sentiment Analysis
 
+## 학습 결과 사이트
+
+[학습 결과 대시보드](https://jiwon091112.github.io/mams-attention-sentiment-analysis/)에서 정확도, Macro-F1, 학습 곡선과 실제 예측 사례를 볼 수 있습니다. 사이트 소스는 `docs/` 폴더에 있습니다.
+
+GitHub Pages 최초 설정: 저장소 **Settings → Pages → Deploy from a branch → main /docs → Save**. 활성화 후 위 주소로 접속할 수 있습니다. 사이트는 실제 실험 결과를 담은 정적 페이지이며, 모델 재학습이나 실시간 추론은 실행하지 않습니다.
+
 MAMS 데이터로 LSTM의 평균 풀링과 대상 정보를 이용하는 Attention 풀링을 비교한 연구입니다.
 문장과 평가 대상을 입력받아 **부정(0), 중립(1), 긍정(2)** 중 하나를 예측합니다. 평가 대상을 자동으로 찾는 과제는 아닙니다.
 
