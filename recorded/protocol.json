@@ -1,0 +1,31 @@
+{
+  "config": {
+    "seeds": [
+      17,
+      42
+    ],
+    "embedding_dim": 100,
+    "hidden_dim": 64,
+    "attention_dim": 32,
+    "batch_size": 32,
+    "max_epochs": 12,
+    "patience": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "embedding_dropout": 0.1,
+    "pooled_dropout": 0.3,
+    "threads": 2,
+    "bootstrap": 2000
+  },
+  "labels": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "task": "Given a sentence and its gold aspect span, classify negative/neutral/positive. No aspect extraction.",
+  "architecture": "Both: concatenate word vector, repeated mean aspect vector, and aspect-span flag into a unidirectional LSTM. Both classifiers also receive the aspect vector. Pooling differs only.",
+  "primary": "Macro-F1; accuracy and all-aspects-correct sentence rate secondary.",
+  "checkpoint": "Highest validation Macro-F1, tie lowest validation loss, patience=3 epochs without new best Macro-F1.",
+  "test_rule": "All four training runs complete before test predictions. No tuning or extra runs.",
+  "scope": "Limited 2-seed, 12-epoch comparison; no guarantee of large benefit; not a replication of published model scores."
+}

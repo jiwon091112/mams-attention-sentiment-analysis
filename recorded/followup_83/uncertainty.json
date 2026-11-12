@@ -1,0 +1,8 @@
+{
+  "method": "Paired sentence-cluster bootstrap, three fitted seed pairs fixed; excludes training and split uncertainty.",
+  "macro_f1_difference_95_interval": [
+    0.06856852554642115,
+    0.10924988550713201
+  ],
+  "repetitions": 2000
+}

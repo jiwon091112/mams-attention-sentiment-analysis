@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-12T05:34:22.506577+00:00",
+  "reason": "User requested training under the existing narrow topic and modest compute budget.",
+  "previous_seeds": [
+    17,
+    42
+  ],
+  "new_seed": 83,
+  "new_training_runs": 2,
+  "all_parameters_and_methods_unchanged": true,
+  "original_config": {
+    "seeds": [
+      17,
+      42
+    ],
+    "embedding_dim": 100,
+    "hidden_dim": 64,
+    "attention_dim": 32,
+    "batch_size": 32,
+    "max_epochs": 12,
+    "patience": 3,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "embedding_dropout": 0.1,
+    "pooled_dropout": 0.3,
+    "threads": 2,
+    "bootstrap": 2000
+  },
+  "original_protocol_sha256": "31cb03a3879f7ee2a18b598c21d4e709c491a8a1342d2f1036f6e6dfbd68be4e",
+  "original_source_sha256": "bc827182f2d9c871a738495f7547e8bdcef9082bbcd5f0ea4b7148395f8e17c4",
+  "test_seen_previously": true,
+  "interpretation": "Post-test replication using another seed, no hyperparameter/data changes. Not a new blind test.",
+  "stopping_rule": "Two new runs only. Same maximum 12 epochs and validation Macro-F1 patience=3. No extension."
+}

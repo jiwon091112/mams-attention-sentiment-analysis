@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "pooling": "mean",
+  "best_epoch": 8,
+  "epochs_run": 11,
+  "validation_macro_f1": 0.6554591139558541,
+  "validation_loss": 0.7675697366754572,
+  "seconds": 43.933669754998846,
+  "trainable_parameters": 68847,
+  "checkpoint_sha256": "a45112f52d2a79abc05b6767e4543036d33205e7f476450b4a99d3dc2a931f01"
+}

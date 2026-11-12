@@ -1,0 +1,7 @@
+{
+  "experiment.py": "bc827182f2d9c871a738495f7547e8bdcef9082bbcd5f0ea4b7148395f8e17c4",
+  "protocol.json": "31cb03a3879f7ee2a18b598c21d4e709c491a8a1342d2f1036f6e6dfbd68be4e",
+  "data/cases.csv": "fb89ac21a87ca3c0ac3afd78ffd95233d931cfaa7d152f82bf961719bf463b61",
+  "data/embeddings.npy": "1d091c208669ef36d112386abe99ee2d6252ca79f5cc3fa522ab13665581309d",
+  "data/vocab.json": "19b9d71215cbe9b8b4d07a91f99304d11bfe5db0f2b2267d2c1b75283aecad2e"
+}

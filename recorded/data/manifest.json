@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "test": {
+      "sentences": 500,
+      "cases": 1336,
+      "labels": {
+        "1": 607,
+        "2": 400,
+        "0": 329
+      }
+    },
+    "train": {
+      "sentences": 4297,
+      "cases": 11186,
+      "labels": {
+        "1": 5042,
+        "2": 3380,
+        "0": 2764
+      }
+    },
+    "val": {
+      "sentences": 500,
+      "cases": 1332,
+      "labels": {
+        "1": 604,
+        "2": 403,
+        "0": 325
+      }
+    }
+  },
+  "vocab_size": 7865,
+  "pretrained_word_types": 7071,
+  "pretrained_training_token_coverage": 0.9836597505009372,
+  "raw_sha256": {
+    "train": "26ba39142b28169ebc80408294f4e27493bd1e127c6aa2e85ab4bc750bf8017a",
+    "val": "5b7d225e2f9482a3814f15aed04ff8323105171a47d22d9899d871c4e0ba86ca",
+    "test": "f1a5f53b785335e9c57a1f82b1415026f821040b9e9662a2e467d47a54f20aa9"
+  },
+  "sentence_overlap": 0,
+  "pretrained_source": "GloVe Wikipedia 2014 + Gigaword 5, 100d, Gensim-data word2vec conversion; frozen embeddings",
+  "pretrained_md5": "40ec481866001177b8cd4cb0df92924f"
+}

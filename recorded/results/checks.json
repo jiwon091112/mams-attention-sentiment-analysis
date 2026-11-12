@@ -1,0 +1,6 @@
+{
+  "common_initialization": true,
+  "uniform_attention_equals_mean": true,
+  "padding_invariance": true,
+  "frozen_pretrained_vectors": true
+}
